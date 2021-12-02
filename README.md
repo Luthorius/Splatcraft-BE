@@ -5,6 +5,8 @@ Minecraft Community Project
 Splatcraft is a Minecraft Addon inspired heavily by the groundbreaking, squid vs squid title known as "Splatoon". The aim is to create something amazing, half ink spreading mayhem, half planned out survival and resource gathering.
 So far, only one person has worked on this project, to give it the initial shape, but this isn't just another minecraft addon, made to be uploaded somewhere and generate cash for the creator through adds, this is open source, for us all to be a part of.
 
+**If You're here for the addon, download `Splatcraft v.0.1.mcworld`, `pack(1).mcpack`, `pack(1).mcpack`, then just import them as usual. !Make sure that the packs are applied to the world before playing!**
+
 
 ## Contribute!
 
