@@ -1,6 +1,6 @@
 CREDITS:
 
-Initial Contrubutors:
+Contrubutors:
 Luthorius (Creator)
 
 Mentions:
@@ -11,10 +11,12 @@ Veka for helping on multiple occasions when i started getting into the spirit of
 Yana, inspiration to not just throw creativity out of the window, and put it to use.
 Rage: existing.
 Estrongel the magical scoreboards guy.
+Sean, for mking me think about actually "releasing" an addon, and just being cool
+Erm . . . Derp?
 And everyone else at Bedrock Addons & Bedrock OSS!
 Sorry if anyone's been missed.
 
-This is dedicated to all you guys!
+This is dedicated to all you guys! You might aswell all be contributors.
 
 
 
