@@ -1,0 +1,2 @@
+# Splatcraft
+Minecraft Community Project
