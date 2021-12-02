@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.blue": {
+	  "loop": true,
+      "timeline": {
+        "0.0": "/tag @s remove orange",
+        "0.1": "/tag @s add blue"
+      },
+      "animation_length": 0.2
+    },
+    "animation.orange": {
+	  "loop": true,
+      "timeline": {
+        "0.0": "/tag @s remove blue",
+        "0.1": "/tag @s add orange"
+      },
+      "animation_length": 0.2
+    }
+  }
+}

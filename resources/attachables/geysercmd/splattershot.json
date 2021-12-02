@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "splat:splattershot",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/blocks/mains/splattershot",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.splattershot"
+            },
+            "render_controllers": [
+                "controller.render.item_default"
+            ]
+        }
+    }
+}

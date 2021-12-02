@@ -1,0 +1,468 @@
+{
+  "format_version": "1.16.100",
+  "animation_controllers": {
+    "controller.animation.inktank" : {
+      "states" : {
+        "default" : {
+          "transitions" : [
+            {
+              "alive" : "q.relative_block_has_any_tag(0,-2.5,0,'splat:spawnpointtag')"
+            }
+          ]
+        },
+        "alive" : {
+          "on_entry" : [
+            "/scoreboard players set @p ink_level 100",
+            "/scoreboard players set @p charge_speed 1"
+          ],
+          "transitions" : [
+            {
+              "10.10" : "query.is_alive"
+            }
+          ]
+        },
+        "10.10" : {
+          "on_entry" : [
+            "/function 10"
+          ],
+          "transitions" : [
+            {
+              "9.10" : "(query.scoreboard('ink_level') > 79) && (query.scoreboard('ink_level') < 90)"
+            },
+            {
+              "8.10" : "(query.scoreboard('ink_level') > 69) && (query.scoreboard('ink_level') < 80)"
+            },
+            {
+              "7.10" : "(query.scoreboard('ink_level') > 59) && (query.scoreboard('ink_level') < 70)"
+            },
+            {
+              "6.10" : "(query.scoreboard('ink_level') > 49) && (query.scoreboard('ink_level') < 60)"
+            },
+            {
+              "5.10" : "(query.scoreboard('ink_level') > 39) && (query.scoreboard('ink_level') < 50)"
+            },
+            {
+              "4.10" : "(query.scoreboard('ink_level') > 29) && (query.scoreboard('ink_level') < 40)"
+            },
+            {
+              "3.10" : "(query.scoreboard('ink_level') > 19) && (query.scoreboard('ink_level') < 30)"
+            },
+            {
+              "2.10" : "(query.scoreboard('ink_level') > 9) && (query.scoreboard('ink_level') < 20)"
+            },
+            {
+              "1.10" : "(query.scoreboard('ink_level') > 1) && (query.scoreboard('ink_level') < 10)"
+            },
+            {
+              "0.10" : "(query.scoreboard('ink_level') < 1)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        },
+        "9.10" : {
+          "on_entry" : [
+            "/function 9"
+          ],
+          "transitions" : [
+            {
+              
+              "10.10" : "(query.scoreboard('ink_level') > 99)"
+            },
+            {  
+              "8.10" : "(query.scoreboard('ink_level') > 69) && (query.scoreboard('ink_level') < 80)"
+            },
+            {  
+              "7.10" : "(query.scoreboard('ink_level') > 59) && (query.scoreboard('ink_level') < 70)"
+            },
+            {  
+              "6.10" : "(query.scoreboard('ink_level') > 49) && (query.scoreboard('ink_level') < 60)"
+            },
+            {  
+              "5.10" : "(query.scoreboard('ink_level') > 39) && (query.scoreboard('ink_level') < 50)"
+            },
+            {  
+              "4.10" : "(query.scoreboard('ink_level') > 29) && (query.scoreboard('ink_level') < 40)"
+            },
+            {  
+              "3.10" : "(query.scoreboard('ink_level') > 19) && (query.scoreboard('ink_level') < 30)"
+            },
+            {  
+              "2.10" : "(query.scoreboard('ink_level') > 9) && (query.scoreboard('ink_level') < 20)"
+            },
+            {  
+              "1.10" : "(query.scoreboard('ink_level') > 1) && (query.scoreboard('ink_level') < 10)"
+            },
+            {  
+              "0.10" : "(query.scoreboard('ink_level') < 1)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        },
+        "8.10" : {
+          "on_entry" : [
+            "/function 8"
+          ],
+          "transitions" : [
+            {
+              "10.10" : "(query.scoreboard('ink_level') > 99)"
+            },
+            {  
+              "9.10" : "(query.scoreboard('ink_level') > 79) && (query.scoreboard('ink_level') < 90)"
+            },
+            {  
+              "7.10" : "(query.scoreboard('ink_level') > 59) && (query.scoreboard('ink_level') < 70)"
+            },
+            {  
+              "6.10" : "(query.scoreboard('ink_level') > 49) && (query.scoreboard('ink_level') < 60)"
+            },
+            {  
+              "5.10" : "(query.scoreboard('ink_level') > 39) && (query.scoreboard('ink_level') < 50)"
+            },
+            {  
+              "4.10" : "(query.scoreboard('ink_level') > 29) && (query.scoreboard('ink_level') < 40)"
+            },
+            {  
+              "3.10" : "(query.scoreboard('ink_level') > 19) && (query.scoreboard('ink_level') < 30)"
+            },
+            {  
+              "2.10" : "(query.scoreboard('ink_level') > 9) && (query.scoreboard('ink_level') < 20)"
+            },
+            {  
+              "1.10" : "(query.scoreboard('ink_level') > 1) && (query.scoreboard('ink_level') < 10)"
+            },
+            {  
+              "0.10" : "(query.scoreboard('ink_level') < 1)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        },
+        "7.10" : {
+          "on_entry" : [
+            "/function 7"
+          ],
+          "transitions" : [
+            {
+              "10.10" : "(query.scoreboard('ink_level') > 99)"
+            },
+            {  
+              "9.10" : "(query.scoreboard('ink_level') > 79) && (query.scoreboard('ink_level') < 90)"
+            },
+            {  
+              "8.10" : "(query.scoreboard('ink_level') > 69) && (query.scoreboard('ink_level') < 80)"
+            },
+            {  
+              "6.10" : "(query.scoreboard('ink_level') > 49) && (query.scoreboard('ink_level') < 60)"
+            },
+            {  
+              "5.10" : "(query.scoreboard('ink_level') > 39) && (query.scoreboard('ink_level') < 50)"
+            },
+            {  
+              "4.10" : "(query.scoreboard('ink_level') > 29) && (query.scoreboard('ink_level') < 40)"
+            },
+            {  
+              "3.10" : "(query.scoreboard('ink_level') > 19) && (query.scoreboard('ink_level') < 30)"
+            },
+            {  
+              "2.10" : "(query.scoreboard('ink_level') > 9) && (query.scoreboard('ink_level') < 20)"
+            },
+            {  
+              "1.10" : "(query.scoreboard('ink_level') > 1) && (query.scoreboard('ink_level') < 10)"
+            },
+            {  
+              "0.10" : "(query.scoreboard('ink_level') < 1)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        },
+        "6.10" : {
+          "on_entry" : [
+            "/function 6"
+          ],
+          "transitions" : [
+            {
+              "10.10" : "(query.scoreboard('ink_level') > 99)"
+            },
+            {  
+              "9.10" : "(query.scoreboard('ink_level') > 79) && (query.scoreboard('ink_level') < 90)"
+            },
+            {  
+              "8.10" : "(query.scoreboard('ink_level') > 69) && (query.scoreboard('ink_level') < 80)"
+            },
+            {  
+              "7.10" : "(query.scoreboard('ink_level') > 59) && (query.scoreboard('ink_level') < 70)"
+            },
+            {  
+              "5.10" : "(query.scoreboard('ink_level') > 39) && (query.scoreboard('ink_level') < 50)"
+            },
+            {  
+              "4.10" : "(query.scoreboard('ink_level') > 29) && (query.scoreboard('ink_level') < 40)"
+            },
+            {  
+              "3.10" : "(query.scoreboard('ink_level') > 19) && (query.scoreboard('ink_level') < 30)"
+            },
+            {  
+              "2.10" : "(query.scoreboard('ink_level') > 9) && (query.scoreboard('ink_level') < 20)"
+            },
+            {  
+              "1.10" : "(query.scoreboard('ink_level') > 1) && (query.scoreboard('ink_level') < 10)"
+            },
+            {  
+              "0.10" : "(query.scoreboard('ink_level') < 1)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        },
+        "5.10" : {
+          "on_entry" : [
+            "/function 5"
+          ],
+          "transitions" : [
+            {
+              "10.10" : "(query.scoreboard('ink_level') > 99)"
+            },
+            {  
+              "9.10" : "(query.scoreboard('ink_level') > 79) && (query.scoreboard('ink_level') < 90)"
+            },
+            {  
+              "8.10" : "(query.scoreboard('ink_level') > 69) && (query.scoreboard('ink_level') < 80)"
+            },
+            {  
+              "7.10" : "(query.scoreboard('ink_level') > 59) && (query.scoreboard('ink_level') < 70)"
+            },
+            {  
+              "6.10" : "(query.scoreboard('ink_level') > 49) && (query.scoreboard('ink_level') < 60)"
+            },
+            {  
+              "4.10" : "(query.scoreboard('ink_level') > 29) && (query.scoreboard('ink_level') < 40)"
+            },
+            {  
+              "3.10" : "(query.scoreboard('ink_level') > 19) && (query.scoreboard('ink_level') < 30)"
+            },
+            {  
+              "2.10" : "(query.scoreboard('ink_level') > 9) && (query.scoreboard('ink_level') < 20)"
+            },
+            {  
+              "1.10" : "(query.scoreboard('ink_level') > 1) && (query.scoreboard('ink_level') < 10)"
+            },
+            {  
+              "0.10" : "(query.scoreboard('ink_level') < 1)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        },
+        "4.10" : {
+          "on_entry" : [
+            "/function 4"
+          ],
+          "transitions" : [
+            {
+              "10.10" : "(query.scoreboard('ink_level') > 99)"
+            },
+            {  
+              "9.10" : "(query.scoreboard('ink_level') > 79) && (query.scoreboard('ink_level') < 90)"
+            },
+            {  
+              "8.10" : "(query.scoreboard('ink_level') > 69) && (query.scoreboard('ink_level') < 80)"
+            },
+            {  
+              "7.10" : "(query.scoreboard('ink_level') > 59) && (query.scoreboard('ink_level') < 70)"
+            },
+            {  
+              "6.10" : "(query.scoreboard('ink_level') > 49) && (query.scoreboard('ink_level') < 60)"
+            },
+            {  
+              "5.10" : "(query.scoreboard('ink_level') > 39) && (query.scoreboard('ink_level') < 50)"
+            },
+            {  
+              "3.10" : "(query.scoreboard('ink_level') > 19) && (query.scoreboard('ink_level') < 30)"
+            },
+            {  
+              "2.10" : "(query.scoreboard('ink_level') > 9) && (query.scoreboard('ink_level') < 20)"
+            },
+            {  
+              "1.10" : "(query.scoreboard('ink_level') > 1) && (query.scoreboard('ink_level') < 10)"
+            },
+            {  
+              "0.10" : "(query.scoreboard('ink_level') < 1)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        },
+        "3.10" : {
+          "on_entry" : [
+            "/function 3"
+          ],
+          "transitions" : [
+            {
+              "10.10" : "(query.scoreboard('ink_level') > 99)"
+            },
+            {  
+              "9.10" : "(query.scoreboard('ink_level') > 79) && (query.scoreboard('ink_level') < 90)"
+            },
+            {  
+              "8.10" : "(query.scoreboard('ink_level') > 69) && (query.scoreboard('ink_level') < 80)"
+            },
+            {  
+              "7.10" : "(query.scoreboard('ink_level') > 59) && (query.scoreboard('ink_level') < 70)"
+            },
+            {  
+              "6.10" : "(query.scoreboard('ink_level') > 49) && (query.scoreboard('ink_level') < 60)"
+            },
+            {  
+              "5.10" : "(query.scoreboard('ink_level') > 39) && (query.scoreboard('ink_level') < 50)"
+            },
+            {  
+              "4.10" : "(query.scoreboard('ink_level') > 29) && (query.scoreboard('ink_level') < 40)"
+            },
+            {  
+              "2.10" : "(query.scoreboard('ink_level') > 9) && (query.scoreboard('ink_level') < 20)"
+            },
+            {  
+              "1.10" : "(query.scoreboard('ink_level') > 1) && (query.scoreboard('ink_level') < 10)"
+            },
+            {  
+              "0.10" : "(query.scoreboard('ink_level') < 1)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        },
+        "2.10" : {
+          "on_entry" : [
+            "/function 2"
+          ],
+          "transitions" : [
+            {
+              "10.10" : "(query.scoreboard('ink_level') > 99)"
+            },
+            {  
+              "9.10" : "(query.scoreboard('ink_level') > 79) && (query.scoreboard('ink_level') < 90)"
+            },
+            {  
+              "8.10" : "(query.scoreboard('ink_level') > 69) && (query.scoreboard('ink_level') < 80)"
+            },
+            {  
+              "7.10" : "(query.scoreboard('ink_level') > 59) && (query.scoreboard('ink_level') < 70)"
+            },
+            {  
+              "6.10" : "(query.scoreboard('ink_level') > 49) && (query.scoreboard('ink_level') < 60)"
+            },
+            {  
+              "5.10" : "(query.scoreboard('ink_level') > 39) && (query.scoreboard('ink_level') < 50)"
+            },
+            {  
+              "4.10" : "(query.scoreboard('ink_level') > 29) && (query.scoreboard('ink_level') < 40)"
+            },
+            {  
+              "3.10" : "(query.scoreboard('ink_level') > 19) && (query.scoreboard('ink_level') < 30)"
+            },
+            {  
+              "1.10" : "(query.scoreboard('ink_level') > 1) && (query.scoreboard('ink_level') < 10)"
+            },
+            {  
+              "0.10" : "(query.scoreboard('ink_level') < 1)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        },
+        "1.10" : {
+          "on_entry" : [
+            "/function 1"
+          ],
+          "transitions" : [
+            {
+              "10.10" : "(query.scoreboard('ink_level') > 99)"
+            },
+            {  
+              "9.10" : "(query.scoreboard('ink_level') > 79) && (query.scoreboard('ink_level') < 90)"
+            },
+            {  
+              "8.10" : "(query.scoreboard('ink_level') > 69) && (query.scoreboard('ink_level') < 80)"
+            },
+            {  
+              "7.10" : "(query.scoreboard('ink_level') > 59) && (query.scoreboard('ink_level') < 70)"
+            },
+            {
+              "6.10" : "(query.scoreboard('ink_level') > 49) && (query.scoreboard('ink_level') < 60)"
+            },
+            {  
+              "5.10" : "(query.scoreboard('ink_level') > 39) && (query.scoreboard('ink_level') < 50)"
+            },
+            {  
+              "4.10" : "(query.scoreboard('ink_level') > 29) && (query.scoreboard('ink_level') < 40)"
+            },
+            { 
+              "3.10" : "(query.scoreboard('ink_level') > 19) && (query.scoreboard('ink_level') < 30)"
+            },
+            {  
+              "2.10" : "(query.scoreboard('ink_level') > 9) && (query.scoreboard('ink_level') < 20)"
+            },
+            {  
+              "0.10" : "(query.scoreboard('ink_level') < 1)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        },
+        "0.10" : {
+          "on_entry" : [
+            "/function 0"
+          ],
+          "transitions" : [
+            {
+              "10.10" : "(query.scoreboard('ink_level') > 99)"
+            },
+            {  
+              "9.10" : "(query.scoreboard('ink_level') > 79) && (query.scoreboard('ink_level') < 90)"
+            },
+            {  
+              "8.10" : "(query.scoreboard('ink_level') > 69) && (query.scoreboard('ink_level') < 80)"
+            },
+            {  
+              "7.10" : "(query.scoreboard('ink_level') > 59) && (query.scoreboard('ink_level') < 70)"
+            },
+            {  
+              "6.10" : "(query.scoreboard('ink_level') > 49) && (query.scoreboard('ink_level') < 60)"
+            },
+            {  
+              "5.10" : "(query.scoreboard('ink_level') > 39) && (query.scoreboard('ink_level') < 50)"
+            },
+            { 
+              "4.10" : "(query.scoreboard('ink_level') > 29) && (query.scoreboard('ink_level') < 40)"
+            },
+            {  
+              "3.10" : "(query.scoreboard('ink_level') > 19) && (query.scoreboard('ink_level') < 30)"
+            },
+            {  
+              "2.10" : "(query.scoreboard('ink_level') > 9) && (query.scoreboard('ink_level') < 20)"
+            },
+            {  
+              "1.10" : "(query.scoreboard('ink_level') > 8) && (query.scoreboard('ink_level') < 10)"
+            },
+            {
+              "default" : "!query.is_alive"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

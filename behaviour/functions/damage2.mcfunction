@@ -1,0 +1,1 @@
+scoreboard players set @p[rm=0,r=2,tag=blue] damage_yes 1

@@ -1,0 +1,31 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"splat:paint": {
+	  "sound": "block.beehive.drip",
+          "textures" : "paint"
+	},
+	"splat:paint2": {
+	  "sound": "block.beehive.drip",
+          "textures" : "paint2"
+	},
+	"splat:team": {
+	  "sound": "block.beehive.drip",
+          "textures" : "team"
+	},
+	"splat:team2": {
+	  "sound": "block.beehive.drip",
+          "textures" : "team2"
+	},
+	"splat:spawnpoint": {
+	  "sound": "block.beehive.drip",
+          "textures" : "spawnpoint"
+	},
+	"splat:spawnpoint2": {
+	  "sound": "block.beehive.drip",
+          "textures" : "spawnpoint2"
+	}
+}

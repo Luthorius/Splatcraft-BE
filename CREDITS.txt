@@ -1,0 +1,27 @@
+CREDITS:
+
+Initial Contrubutors:
+Luthorius (Creator)
+
+Mentions:
+Ciosciaa, general support and assistance, and playtesting too!
+Sprunkles, for helping out with projectile issues, and the odd few other issues.
+Lich for just being Lich. Suggesting i contribute to the wiki, which lead on to me starting this project.
+Veka for helping on multiple occasions when i started getting into the spirit of addons.
+Yana, inspiration to not just throw creativity out of the window, and put it to use.
+Rage: existing.
+Estrongel the magical scoreboards guy.
+And everyone else at Bedrock Addons & Bedrock OSS!
+Sorry if anyone's been missed.
+
+This is dedicated to all you guys!
+
+
+
+Sources:
+wiki.bedrock.dev
+bedrock.dev
+minecraft.fandom.com
+Vanilla RP and BP
+The example pack for attatchables from https://wiki.bedrock.dev/items/3d-items.html but i'm not sure who made it.
+Almost all of the channels on Bedrock Addons, https://discord.gg/vM3QDBmP
