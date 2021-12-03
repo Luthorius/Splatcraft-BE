@@ -20,7 +20,7 @@ CURRENT FEATURES:
 - Splattershots: The generic weapon
 - Inktanks, for ammo
 - "Swimming" in ink
-- A whole host of technical blocks and entities, to cover teams, spawnpints, game time, etc
+- A handfull of blocks to handle teams and items
 - 1 Simple Turf War map
 
 
@@ -31,7 +31,8 @@ UPCOMING FEATURES:
 - Ink on the walls!
 - Testures and Animations
 - .lang files for text, and display names
-- Move over from using large animations to Functions, and rely less on command blocks.
+- Move over from using large animations to Functions, and rely less on command blocks
+- More technical blocks and entities
 - General Optimisation
 
 Currently, the usage of the World, Behavior Pack, *and* Resource Pack are completely mandatory
