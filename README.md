@@ -1,35 +1,29 @@
 # Splatcraft
-Minecraft Community Project
+Minecraft Turf Wars (PvP)
 
-### Something for everyone.
-Splatcraft is a Minecraft Addon inspired heavily by the groundbreaking, squid vs squid title known as "Splatoon". The aim is to create something amazing, half ink spreading mayhem, half planned out survival and resource gathering.
-So far, only one person has worked on this project, to give it the initial shape, but this isn't just another minecraft addon, made to be uploaded somewhere and generate cash for the creator through adds, this is open source, for us all to be a part of.
+Splatcraft is a Minecraft Addon inspired heavily by the groundbreaking, squid vs squid title known as "Splatoon".
 
-**If You're here for the addon, download `Splatcraft v.0.1.mcworld`, `pack(1).mcpack`, `pack(1).mcpack`, then just import them as usual. !Make sure that the packs are applied to the world before playing!**
+**If You're here for the addon, download `Splatcraft v.0.2.mcworld`, `pack(1).mcpack`, `pack(1).mcpack`, then just import them as usual. !Make sure that the packs are applied to the world before playing!**
 
-
-## Contribute!
-
-Hey, everyone is welcome here. To get this project as smooth and as big as planned, do what you want! Add some textures, make some models, design particles, entities, gameplay mechanics! Or just make some structures!
-
-
-### Version 0.1.0
+### Version 0.2.0
 
 CURRENT FEATURES:
 
 - Splattershots: The generic weapon
 - Inktanks, for ammo
 - "Swimming" in ink
+- Swimming up walls!
 - A handfull of blocks to handle teams and items
-- 1 Simple Turf War map
+- 1 Simple Turf War map which resets
+- Ink on the walls!
+- Some Textures and Animations
 
 
 UPCOMING FEATURES:
 
 - Sub Weapons
 - The "craft" side of things
-- Ink on the walls!
-- Testures and Animations
+- More Testures and Animations
 - .lang files for text, and display names
 - Move over from using large animations to Functions, and rely less on command blocks
 - More technical blocks and entities
@@ -39,8 +33,7 @@ Currently, the usage of the World, Behavior Pack, *and* Resource Pack are comple
 
 KNOWN ISSUES:
 
-- Splattershot currently has no Icon, and the animations are funky . . .
-- Occasional issues with Inktank items
+- Quiting the game while in a match, then re-joining can result in some . . . issues
 
 
 ## Get in Contact
