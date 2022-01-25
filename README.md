@@ -38,7 +38,7 @@ KNOWN ISSUES:
 
 ## Get in Contact
 
-Currently this is based in a thread, on the Minecraft [Bedrock Addons Server!](https://discord.gg/W2t4rkjn) This awesome place is just for addons in general, and it's one of the best places out there.
+Join the Minecraft [Bedrock Addons Server!](https://discord.gg/HMSRWuR78w) This awesome place is just for addons in general, and it's one of the best places out there.
 
 
 #### Note: This project modifies `player.json`, so it may not work with certain other addons!
