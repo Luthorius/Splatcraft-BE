@@ -3,7 +3,7 @@ Minecraft Turf Wars (PvP)
 
 Splatcraft is a Minecraft Addon inspired heavily by the groundbreaking, squid vs squid title known as "Splatoon".
 
-**If You're here for the addon, download `Splatcraft v.0.2.mcworld`, `pack(1).mcpack`, `pack(1).mcpack`, then just import them as usual. !Make sure that the packs are applied to the world before playing!**
+**If You're here for the addon, download `Splatcraft v.0.2.mcworld`, `pack(1).mcpack`, `pack(2).mcpack`, then just import them as usual. !Make sure that the packs are applied to the world before playing!**
 
 ### Version 0.2.0
 
