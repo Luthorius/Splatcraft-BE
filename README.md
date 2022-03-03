@@ -23,7 +23,7 @@ UPCOMING FEATURES:
 
 - Sub Weapons
 - The "craft" side of things
-- More Testures and Animations
+- More Textures and Animations
 - .lang files for text, and display names
 - Move over from using large animations to Functions, and rely less on command blocks
 - More technical blocks and entities
