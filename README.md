@@ -1,4 +1,4 @@
-# Splatcraft
+# Splatcraft BE (working name)
 Minecraft Turf Wars (PvP)
 
 Splatcraft is a Minecraft Addon inspired heavily by the groundbreaking, squid vs squid title known as "Splatoon".
